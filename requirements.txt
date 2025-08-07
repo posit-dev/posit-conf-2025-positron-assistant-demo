@@ -1,0 +1,6 @@
+matplotlib
+pandas
+plotnine
+polars
+pyarrow
+seaborn
