@@ -1,0 +1,74 @@
+Year,League,Conference,Division,Finish,W,L,T,PCT,PF,PA,Head Coach,season_type
+1966,NFL,Eastern Conference,,7,3,11,0,0.214,204,437,Norb Hecker,regular
+1967,NFL,Western Conference,Coastal Division,4,1,12,1,0.077,175,422,Norb Hecker,regular
+1968,NFL,Western Conference,Coastal Division,4,2,12,0,0.143,170,389,Norb Hecker,regular
+1969,NFL,Western Conference,Coastal Division,3,6,8,0,0.429,276,268,Norm Van Brocklin,regular
+1970,NFL,National Football Conference,Western Division,3,4,8,2,0.333,206,261,Norm Van Brocklin,regular
+1971,NFL,National Football Conference,Western Division,3,7,6,1,0.538,274,277,Norm Van Brocklin,regular
+1972,NFL,National Football Conference,Western Division,2,7,7,0,0.5,269,274,Norm Van Brocklin,regular
+1973,NFL,National Football Conference,Western Division,2,9,5,0,0.643,318,224,Norm Van Brocklin,regular
+1974,NFL,National Football Conference,Western Division,4,3,11,0,0.214,111,271,Marion Campbell,regular
+1975,NFL,National Football Conference,Western Division,3,4,10,0,0.286,240,289,Marion Campbell,regular
+1976,NFL,National Football Conference,Western Division,3,4,10,0,0.286,172,312,Marion Campbell,regular
+1977,NFL,National Football Conference,Western Division,2,7,7,0,0.5,179,129,Leeman Bennett,regular
+1978,NFL,National Football Conference,Western Division,2,9,7,0,0.563,240,290,Leeman Bennett,regular
+1978,NFL,National Football Conference,Western Division,,1,1,,0.5,34,40,Leeman Bennett,playoffs
+1979,NFL,National Football Conference,Western Division,3,6,10,0,0.375,300,388,Leeman Bennett,regular
+1980,NFL,National Football Conference,Western Division,1,12,4,0,0.75,405,272,Leeman Bennett,regular
+1980,NFL,National Football Conference,Western Division,,0,1,,0.0,27,30,Leeman Bennett,playoffs
+1981,NFL,National Football Conference,Western Division,2,7,9,0,0.438,426,355,Leeman Bennett,regular
+1982,NFL,National Football Conference,,5,5,4,0,0.556,183,199,Leeman Bennett,regular
+1982,NFL,National Football Conference,,,0,1,,0.0,24,30,Leeman Bennett,playoffs
+1983,NFL,National Football Conference,Western Division,4,7,9,0,0.438,370,389,Dan Henning,regular
+1984,NFL,National Football Conference,Western Division,4,4,12,0,0.25,281,382,Dan Henning,regular
+1985,NFL,National Football Conference,Western Division,4,4,12,0,0.25,282,452,Dan Henning,regular
+1986,NFL,National Football Conference,Western Division,3,7,8,1,0.469,280,280,Dan Henning,regular
+1987,NFL,National Football Conference,Western Division,4,3,12,0,0.2,205,436,Marion Campbell,regular
+1988,NFL,National Football Conference,Western Division,4,5,11,0,0.313,244,315,Marion Campbell,regular
+1989,NFL,National Football Conference,Western Division,4,3,13,0,0.188,279,437,Marion Campbell,regular
+1990,NFL,National Football Conference,Western Division,4,5,11,0,0.313,348,365,Jerry Glanville,regular
+1991,NFL,National Football Conference,Western Division,2,10,6,0,0.625,361,338,Jerry Glanville,regular
+1991,NFL,National Football Conference,Western Division,,1,1,,0.5,34,44,Jerry Glanville,playoffs
+1992,NFL,National Football Conference,Western Division,3,6,10,0,0.375,327,414,Jerry Glanville,regular
+1993,NFL,National Football Conference,Western Division,3,6,10,0,0.375,316,385,Jerry Glanville,regular
+1994,NFL,National Football Conference,Western Division,3,7,9,0,0.438,317,385,June Jones,regular
+1995,NFL,National Football Conference,Western Division,2,9,7,0,0.563,362,349,June Jones,regular
+1995,NFL,National Football Conference,Western Division,,0,1,,0.0,20,37,June Jones,playoffs
+1996,NFL,National Football Conference,Western Division,4,3,13,0,0.188,309,461,June Jones,regular
+1997,NFL,National Football Conference,Western Division,3,7,9,0,0.438,320,361,Dan Reeves,regular
+1998,NFL,National Football Conference,Western Division,1,14,2,0,0.875,442,289,Dan Reeves,regular
+1998,NFL,National Football Conference,Western Division,,2,1,,0.667,69,79,Dan Reeves,playoffs
+1999,NFL,National Football Conference,Western Division,3,5,11,0,0.313,285,380,Dan Reeves,regular
+2000,NFL,National Football Conference,Western Division,5,4,12,0,0.25,252,413,Dan Reeves,regular
+2001,NFL,National Football Conference,Western Division,4,7,9,0,0.438,291,377,Dan Reeves,regular
+2002,NFL,National Football Conference,South Division,2,9,6,1,0.594,402,314,Dan Reeves,regular
+2002,NFL,National Football Conference,South Division,,1,1,,0.5,33,27,Dan Reeves,playoffs
+2003,NFL,National Football Conference,South Division,4,5,11,0,0.312,299,422,Wade Phillips,regular
+2004,NFL,National Football Conference,South Division,1,11,5,0,0.688,340,337,"Jim Mora, Jr.",regular
+2004,NFL,National Football Conference,South Division,,1,1,,0.5,57,44,"Jim Mora, Jr.",playoffs
+2005,NFL,National Football Conference,South Division,3,8,8,0,0.5,351,341,"Jim Mora, Jr.",regular
+2006,NFL,National Football Conference,South Division,3,7,9,0,0.438,292,328,"Jim Mora, Jr.",regular
+2007,NFL,National Football Conference,South Division,4,4,12,0,0.25,259,414,Bobby Petrino,regular
+2008,NFL,National Football Conference,South Division,2,11,5,0,0.688,391,325,Mike Smith,regular
+2008,NFL,National Football Conference,South Division,,0,1,,0.0,24,30,Mike Smith,playoffs
+2009,NFL,National Football Conference,South Division,2,9,7,0,0.563,363,325,Mike Smith,regular
+2010,NFL,National Football Conference,South Division,1,13,3,0,0.813,414,288,Mike Smith,regular
+2010,NFL,National Football Conference,South Division,,0,1,,0.0,21,48,Mike Smith,playoffs
+2011,NFL,National Football Conference,South Division,2,10,6,0,0.625,402,350,Mike Smith,regular
+2011,NFL,National Football Conference,South Division,,0,1,,0.0,2,24,Mike Smith,playoffs
+2012,NFL,National Football Conference,South Division,1,13,3,0,0.814,419,299,Mike Smith,regular
+2012,NFL,National Football Conference,South Division,,1,1,,0.5,54,56,Mike Smith,playoffs
+2013,NFL,National Football Conference,South Division,3,4,12,0,0.25,353,443,Mike Smith,regular
+2014,NFL,National Football Conference,South Division,3,6,10,0,0.375,381,417,Mike Smith,regular
+2015,NFL,National Football Conference,South Division,2,8,8,0,0.5,339,345,Dan Quinn,regular
+2016,NFL,National Football Conference,South Division,1,11,5,0,0.688,540,406,Dan Quinn,regular
+2016,NFL,National Football Conference,South Division,,2,1,,0.667,108,75,Dan Quinn,playoffs
+2017,NFL,National Football Conference,South Division,3,10,6,0,0.625,353,315,Dan Quinn,regular
+2017,NFL,National Football Conference,South Division,,1,1,,0.5,36,28,Dan Quinn,playoffs
+2018,NFL,National Football Conference,South Division,2,7,9,0,0.438,414,423,Dan Quinn,regular
+2019,NFL,National Football Conference,South Division,2,7,9,0,0.438,381,399,Dan Quinn,regular
+2020,NFL,National Football Conference,South Division,4,4,12,0,0.25,396,414,Dan Quinn,regular
+2021,NFL,National Football Conference,South Division,3,7,10,0,0.412,313,459,Arthur Smith,regular
+2022,NFL,National Football Conference,South Division,4,7,10,0,0.412,365,386,Arthur Smith,regular
+2023,NFL,National Football Conference,South Division,3,7,10,0,0.412,321,373,Arthur Smith,regular
+2024,NFL,National Football Conference,South Division,2,8,9,0,0.471,389,423,Raheem Morris,regular
