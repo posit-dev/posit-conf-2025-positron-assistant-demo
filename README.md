@@ -2,35 +2,39 @@
 
 Welcome to the Positron Assistant demo for posit::conf 2025 in Atlanta!
 
-## Step 1: Pick a dataset
+In this demo, you will:
 
-Choose from the following datasets:
+1. Explore the Georgia Aquarium Species dataset with the help of Positron Assistant
 
-- [TBD1](./data/TBD1): a dataset about _topic 1_
-- [TBD2](./data/TBD1): a dataset about _topic 2_
-- [TBD3](./data/TBD1): a dataset about _topic 3_
+1. Export the chat into a Quarto document using Positron Assistant
 
-## Step 2: Pick a language and data analysis tool
+1. Publish the document to Posit Connect Cloud
 
-Choose a demo script from the following languages and tools:
+## Step 1: Run the script in the Console
 
-- [Python pandas](./python-pandas-demo.py)
-- [Python polars and plotnine demo](./python-polars-demo.py)
-- [R demo](./r-demo.R)
+1. Open up [the demo script](./python-polars-demo.py) in an editor
 
-## Step 3: Update the script with your dataset
+1. Run the script cell by cell, or select all the code and run it at once (Cmd/Ctrl + Enter).
 
-Open the demo script you chose and update the dataset file path to point to the dataset you selected in Step 1.
+   - Once all the code has been run, you should see:
 
-## Step 4: Run the script in the Console
+        - code executed in the Console
 
-With the selected demo script open in an editor, in the Editor Actions, click the play button to run the script in the Console.
+        - data loaded into the Variables pane
 
-## Step 5: Explore the data with Positron Assistant
+        - a plot rendered in the Plots pane
 
-Time to explore your data!
+## Step 2: Explore the data with Positron Assistant
 
-Here are some example messages you can send in the Positron Assistant chat, to explore the data:
+1. Open the Positron Assistant pane by clicking on the Positron Assistant robot icon in the sidebar, or by opening the Command Palette (Cmd/Ctrl + Shift + P) and running the [command "View: Show Chat"](command:workbench.panel.chat).
+
+1. In the Positron Assistant pane, ensure your chat is in `<TBD>` mode. You can switch modes by clicking on the mode selector at the bottom of the chat pane.
+
+1. Use the example messages below to explore the Georgia Aquarium Species dataset.
+
+_TODO: determine the chat mode for this demo_
+
+_TODO: add example prompts below_
 
 ### Example 1
 
@@ -50,7 +54,7 @@ another example prompt
 yet another example prompt
 ```
 
-## Step 6: Export the chat into a Quarto document
+## Step 3: Export the chat into a Quarto document
 
 1. In the Positron Assistant chat in "Ask" mode, enter `/exportQuarto` and send the message.
 
@@ -58,6 +62,6 @@ yet another example prompt
 
 1. Save the generated Quarto document as `report.qmd` in your project directory.
 
-## Step 7: Publish your document
+## Step 4: Publish your document
 
 TBD
