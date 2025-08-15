@@ -12,7 +12,7 @@ In this demo, you will:
 
 ## Step 1: Run the script in the Console
 
-1. Open up [the demo script](./python-polars-demo.py) in an editor
+1. Open up [the demo script](./python-demo.py) in an editor
 
 1. Run the script cell by cell, or select all the code and run it at once (Cmd/Ctrl + Enter).
 
