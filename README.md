@@ -28,30 +28,28 @@ In this demo, you will:
 
 1. Open the Positron Assistant pane by clicking on the Positron Assistant robot icon in the sidebar, or by opening the Command Palette (Cmd/Ctrl + Shift + P) and running the [command "View: Show Chat"](command:workbench.panel.chat).
 
-1. In the Positron Assistant pane, ensure your chat is in `<TBD>` mode. You can switch modes by clicking on the mode selector at the bottom of the chat pane.
+1. In the Positron Assistant pane, ensure your chat is in `Ask` mode. You can switch modes by clicking on the mode selector at the bottom of the chat pane.
 
 1. Use the example messages below to explore the Georgia Aquarium Species dataset.
 
-_TODO: determine the chat mode for this demo_
+### Example prompts
 
-_TODO: add example prompts below_
-
-### Example 1
+Try out these example prompts in "Ask" mode!
 
 ```
-example prompt
+What region has the most animals with the highest conservation risk?
 ```
 
-### Example 2
-
 ```
-another example prompt
+Extract the species size in inches.
 ```
 
-### Example 3
+```
+Extract the animal's primary color from their physical characteristics.
+```
 
 ```
-yet another example prompt
+Categorize the different types of habitats and then count the number of species in each habitat type.
 ```
 
 ## Step 3: Export the chat into a Quarto document
@@ -65,3 +63,36 @@ yet another example prompt
 ## Step 4: Publish your document
 
 TBD
+
+## Step 5: [OPTIONAL] Explore more with "Agent" mode
+
+<details>
+<summary>Additional prompts for "Agent" mode</summary>
+
+### Additional prompts for "Agent" mode
+
+1. Start a new chat by clicking on the "+" icon at the top of the Positron Assistant sidebar chat.
+
+1. Switch to "Agent" mode by clicking on the mode selector at the bottom of the chat pane and selecting "Agent".
+
+1. Ensure you have the demo script attached to the chat context. If it is not already attached:
+
+    1. Open the file in the editor
+
+    1. Drag the file tab to the sidebar chat; or in the Command Palette (Cmd/Ctrl + Shift + P), run the [command "Chat: Add File to Chat"](command:workbench.action.chat.attachFile).
+
+1. Then, try these additional prompts:
+
+    ```
+    Update the script to change the colour scheme to oceanic colours.
+    ```
+
+    - Run the script to see the changes reflected in the plot. If you're satisfied with the changes, you can "Keep" the changes.
+
+    ```
+    Create a heatmap of the conservation risk by region.
+    ```
+
+    - Positron Assistant may prompt you to "Run Code" to better understand the data and execute code in the Console. Click "Run Code" to execute the code in the Console.
+
+</details>
