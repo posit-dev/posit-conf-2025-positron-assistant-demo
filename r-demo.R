@@ -32,4 +32,4 @@ p <-
   theme_minimal() +
   theme(plot.title = element_text(color = "#A71930", face = "bold"))
 
-p
+plot(p)
