@@ -1,3 +1,5 @@
+![](images/banner.png)
+
 # Positron Assistant demo
 
 Welcome to the Positron Assistant demo for posit::conf 2025 in Atlanta!
