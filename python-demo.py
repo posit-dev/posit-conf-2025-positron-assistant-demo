@@ -45,7 +45,7 @@ conservation_status_summary
 # %% Plot the summary using Plotnine
 threatened_index = 3.5 # Everything from 3.5 to 0 is considered threatened
 
-(
+p = (
     p9.ggplot(conservation_status_summary, p9.aes(x="conservation_status", y="len"))
     + p9.geom_col()
     + p9.geom_text(
@@ -82,3 +82,5 @@ threatened_index = 3.5 # Everything from 3.5 to 0 is considered threatened
     )
     + p9.coord_flip()
 )
+
+p.show()
