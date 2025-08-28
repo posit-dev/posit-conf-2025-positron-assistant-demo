@@ -56,7 +56,7 @@ p = (
     + p9.geom_vline(
         p9.aes(xintercept=threatened_index), 
         linetype="dashed", 
-        color="red"
+        color="#8B0000"
     )
     + p9.annotate(
         'rect', 
@@ -64,7 +64,7 @@ p = (
         xmax=3.5, 
         ymin=0, 
         ymax=math.inf, 
-        fill="red", 
+        fill="#8B0000", 
         alpha=0.1
     )
     + p9.annotate(
@@ -72,7 +72,7 @@ p = (
         label="Species is Threatened",
         x=threatened_index - 1.5,
         y=60,
-        color="red",
+        color="#8B0000",
     )
     + p9.scale_y_continuous(expand=(0, 0, 0, 10))
     + p9.labs(
