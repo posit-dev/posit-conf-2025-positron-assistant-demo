@@ -6,11 +6,11 @@ In this demo, with the help of Positron Assistant you will:
 
 1. Explore the Georgia Aquarium Species dataset using Python, or the Atlanta Falcons football team datasets using R
 
-1. Export your chat conversation into a Quarto document
+1. Export your chat conversation into a JSON log file
 
 ## Setup
 
-If you're running this demo in a guided workshop, your interpreters and packages should already be set up for you in the demo environment. Please jump ahead to either the [Python demo](#python-demo) or [R demo](#r-demo) section and follow the steps!
+If you're running this demo in a guided workshop, your interpreters and packages should already be set up for you in the demo environment. Please jump ahead to either the [Python demo](#-python-demo) or [R demo](#-r-demo) section and follow the steps!
 
 Otherwise, click to expand the pre-requisites section below and follow the steps to set up your environment.
 
@@ -51,7 +51,7 @@ Otherwise, click to expand the pre-requisites section below and follow the steps
 
     1. Wait for the environment to be created and packages to be installed
 
-1. You're all set! Jump to the [Python demo](#python-demo) section and follow the steps!
+1. You're all set! Jump to the [Python demo](#-python-demo) section and follow the steps!
 
 #### R demo pre-requisites
 
@@ -63,7 +63,7 @@ Otherwise, click to expand the pre-requisites section below and follow the steps
     install.packages(c("tidyverse", "patchwork"))
     ```
 
-1. You're all set! Jump to the [R demo](#r-demo) section and follow the steps!
+1. You're all set! Jump to the [R demo](#-r-demo) section and follow the steps!
 
 </details>
 
@@ -212,13 +212,13 @@ Which players have the longest careers but have played the fewest games?
 Is it true that the Atlanta Falcons play worse on the road than at home?
 ```
 
-### Step 3: Export the chat into a Quarto document
+### Step 3: Export the chat conversation
 
-1. In the Positron Assistant chat in `Ask` mode, enter `/exportQuarto` and send the message.
+1. Use <kbd>Ctrl/Cmd + Shift + P</kbd> to open the Command Palette, or click on the Search bar at the top of the Positron Window and click `Show and Run Commands >` to open the Command Palette
 
-1. Positron Assistant will generate a Quarto document based on the chat history, including code chunks and explanations.
+1. Run the [command "Positron Assistant: Export the current chat to a file in the workspace](command:positron-assistant.exportChatToFileInWorkspace), which will export the current chat conversation into a JSON file in your project directory.
 
-1. Save the generated Quarto document as `report.qmd` in your project directory.
+1. View the exported chat conversation by clicking the <kbd>Open chat log</kbd> in the notification that appears in the bottom right corner of Positron.
 
 You're done! 🎉
 
