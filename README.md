@@ -111,13 +111,13 @@ Extract the animal's primary color from their physical characteristics.
 Categorize the different types of habitats and then count the number of species in each habitat type.
 ```
 
-### Step 3: Export the chat into a Quarto document
+### Step 3: Export the chat conversation
 
-1. In the Positron Assistant chat in `Ask` mode, enter `/exportQuarto` and send the message.
+1. Use <kbd>Ctrl/Cmd + Shift + P</kbd> to open the Command Palette, or click on the Search bar at the top of the Positron Window and click `Show and Run Commands >` to open the Command Palette
 
-1. Positron Assistant will generate a Quarto document based on the chat history, including code chunks and explanations.
+1. Run the [command "Positron Assistant: Export the current chat to a file in the workspace](command:positron-assistant.exportChatToFileInWorkspace), which will export the current chat conversation into a JSON file in your project directory.
 
-1. Save the generated Quarto document as `report.qmd` in your project directory.
+1. View the exported chat conversation by clicking the <kbd>Open chat log</kbd> in the notification that appears in the bottom right corner of Positron.
 
 You're done! 🎉
 
