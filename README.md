@@ -185,31 +185,19 @@ You're done! 🎉
 Try out these example prompts in `Ask` mode!
 
 ```
-Who is the most winning player of all time? Who is the most winning coach?
-```
-
-```
 Which player has the highest win-loss percentage?
 ```
 
 ```
-How has scoring changed over time?
-```
-
-```
-Are games closer in the modern NFL?
-```
-
-```
-Does attendance approve on seasons where the Atlanta Falcons do better?
-```
-
-```
-Which players have the longest careers but have played the fewest games?
-```
-
-```
 Is it true that the Atlanta Falcons play worse on the road than at home?
+```
+
+```
+Which players had the highest variation in the high- and low-scoring teams?
+```
+
+```
+Which coaches had the biggest impacts on Points For (PF), Points Against (PA), and wins in their first two seasons?
 ```
 
 ### Step 3: Export the chat conversation
