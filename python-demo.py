@@ -48,31 +48,19 @@ threatened_index = 3.5 # Everything from 3.5 to 0 is considered threatened
 p = (
     p9.ggplot(conservation_status_summary, p9.aes(x="conservation_status", y="len"))
     + p9.geom_col()
-    + p9.geom_text(
-        p9.aes(label="len"), 
-        ha="left", 
-        nudge_y=1
-    )
+    + p9.geom_text(p9.aes(label="len"), ha="left", nudge_y=1)
     + p9.geom_vline(
-        p9.aes(xintercept=threatened_index), 
-        linetype="dashed", 
-        color="red"
+        p9.aes(xintercept=threatened_index), linetype="dashed", color="#A71930"
     )
     + p9.annotate(
-        'rect', 
-        xmin=0.5, 
-        xmax=3.5, 
-        ymin=0, 
-        ymax=math.inf, 
-        fill="red", 
-        alpha=0.1
+        "rect", xmin=0.5, xmax=3.5, ymin=0, ymax=math.inf, fill="#A71930", alpha=0.1
     )
     + p9.annotate(
         "text",
         label="Species is Threatened",
         x=threatened_index - 1.5,
         y=60,
-        color="red",
+        color="#A71930",
     )
     + p9.scale_y_continuous(expand=(0, 0, 0, 10))
     + p9.labs(
