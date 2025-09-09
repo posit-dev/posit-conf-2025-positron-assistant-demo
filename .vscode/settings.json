@@ -8,5 +8,5 @@
   },
   "positron.assistant.enable": true,
   "positron.r.defaultRepositories": "posit-ppm",
-  "workbench.editor.pinnedTabsOnSeparateRow": true
+  "workbench.editor.pinnedTabsOnSeparateRow": true,
 }
