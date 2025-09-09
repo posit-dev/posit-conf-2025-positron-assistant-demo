@@ -1,0 +1,71 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "reset demo",
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "new-chat",
+                "clean-git",
+                "close-all-editors",
+                "reset-layout",
+                "open-file-explorer",
+                "reset active console",
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "reset active console",
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "clear-active-console",
+                "restart-active-console",
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "new-chat",
+            "command": "${command:workbench.action.chat.newChat}",
+            "problemMatcher": [],
+            "hide": true
+        },
+        {
+            "label": "clean-git",
+            "command": "${command:git.cleanAll}",
+            "problemMatcher": [],
+            "hide": true
+        },
+        {
+            "label": "reset-layout",
+            "command": "${command:workbench.action.positronFourPaneDataScienceLayout}",
+            "problemMatcher": [],
+            "hide": true
+        },
+        {
+            "label": "restart-active-console",
+            "command": "${command:workbench.action.language.runtime.restartActiveSession}",
+            "problemMatcher": [],
+            "hide": true
+        },
+        {
+            "label": "clear-active-console",
+            "command": "${command:workbench.action.positronConsole.clearConsole}",
+            "problemMatcher": [],
+            "hide": true
+        },
+        {
+            "label": "close-all-editors",
+            "command": "${command:workbench.action.closeAllEditors}",
+            "problemMatcher": [],
+            "hide": true
+        },
+        {
+            "label": "open-file-explorer",
+            "command": "${command:workbench.view.explorer}",
+            "problemMatcher": [],
+            "hide": true
+        }
+    ]
+}
