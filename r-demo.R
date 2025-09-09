@@ -16,7 +16,7 @@ p <-
   geom_point(aes(color = PCT, size = W), alpha = 0.7) +
   geom_abline(slope = 1, intercept = 0, linetype = "dashed", alpha = 0.5) +
   scale_color_gradient2(
-    low = "#8B0000",
+    low = "#A71930",
     mid = "#FFB347",
     high = "#228B22",
     midpoint = 0.5,
