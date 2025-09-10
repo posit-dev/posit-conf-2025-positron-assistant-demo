@@ -1,12 +1,12 @@
 # Positron Assistant demo
 
-Welcome to the Positron Assistant demo for posit::conf 2025 in Atlanta!
+Welcome to the [Positron Assistant](https://positron.posit.co/assistant) demo for [posit::conf](https://posit.co/conference/) 2025 in Atlanta!
 
-In this demo, with the help of Positron Assistant you will:
+With the help of Positron Assistant, this demo will guide you through exploring two datasets:
 
-1. Explore the Georgia Aquarium Species dataset using Python, or the Atlanta Falcons football team datasets using R
+- the Georgia Aquarium Species dataset using Python
 
-1. Export your chat conversation into a JSON log file
+- the Atlanta Falcons football team datasets using R
 
 ## Setup
 
@@ -36,7 +36,7 @@ Otherwise, click to expand the pre-requisites section below and follow the steps
 1. Use the [Positron Assistant guide](https://positron.posit.co/assistant.html) to set up Positron Assistant with an Anthropic API key
 
 > [!TIP]
-> For the best results with this activity, we recommend Anthropic's Claude Sonnet 4 model.
+> For the best results with this activity, we recommend Anthropic's Claude 4 Sonnet model.
 
 #### Python demo pre-requisites
 
@@ -93,6 +93,8 @@ Otherwise, click to expand the pre-requisites section below and follow the steps
 1. Open the Positron Assistant pane by clicking on the Positron Assistant robot icon in the sidebar, or by opening the Command Palette (<kbd>Cmd/Ctrl + Shift + P</kbd>) and running the [command "View: Show Chat"](command:workbench.panel.chat).
 
 1. In the Positron Assistant pane, ensure your chat is in `Ask` mode. You can switch modes by clicking on the mode selector at the bottom of the chat pane.
+
+1. We recommend selecting the **Claude 4 Sonnet** model for this activity. You can change the model by clicking on the model name at the bottom of the chat pane.
 
 1. Use the example messages below to explore the Georgia Aquarium Species dataset.
 
@@ -194,6 +196,8 @@ You're done! 🎉
 1. Open the Positron Assistant pane by clicking on the Positron Assistant robot icon in the sidebar, or by opening the Command Palette (<kbd>Cmd/Ctrl + Shift + P</kbd>) and running the [command "View: Show Chat"](command:workbench.panel.chat).
 
 1. In the Positron Assistant pane, ensure your chat is in `Ask` mode. You can switch modes by clicking on the mode selector at the bottom of the chat pane.
+
+1. We recommend selecting the **Claude 4 Sonnet** model for this activity. You can change the model by clicking on the model name at the bottom of the chat pane.
 
 1. Use the example messages below to explore the Atlanta Falcons football team datasets.
 
