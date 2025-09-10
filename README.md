@@ -2,13 +2,13 @@
 
 # Positron Assistant demo
 
-Welcome to the Positron Assistant demo for posit::conf 2025 in Atlanta!
+Welcome to the [Positron Assistant](https://positron.posit.co/assistant) demo for [posit::conf](https://posit.co/conference/) 2025 in Atlanta!
 
-In this demo, with the help of Positron Assistant you will:
+With the help of Positron Assistant, this demo will guide you through exploring two datasets:
 
-1. Explore the Georgia Aquarium Species dataset using Python, or the Atlanta Falcons football team datasets using R
+- the Georgia Aquarium Species dataset using Python
 
-1. Export your chat conversation into a JSON log file
+- the Atlanta Falcons football team datasets using R
 
 ## Setup
 
@@ -37,6 +37,9 @@ Otherwise, click to expand the pre-requisites section below and follow the steps
 
 1. Use the [Positron Assistant guide](https://positron.posit.co/assistant.html) to set up Positron Assistant with an Anthropic API key
 
+> [!TIP]
+> For the best results with this activity, we recommend Anthropic's Claude 4 Sonnet model.
+
 #### Python demo pre-requisites
 
 1. Ensure you have a Python interpreter (3.9 through 3.13) installed on your machine
@@ -45,7 +48,9 @@ Otherwise, click to expand the pre-requisites section below and follow the steps
 
     1. Run the [command "Python: Create Environment..."](command:python.createEnvironment) in the Command Palette
 
-    1. Select `Venv` or `uv` as the environment type and pick a base interpreter
+    1. Select `Venv` as the environment type
+    
+    1. Pick a base interpreter (we recommend the latest version of Python)
 
     1. Select the `requirements.txt` file in the dropdown to install the required packages
 
@@ -91,11 +96,17 @@ Otherwise, click to expand the pre-requisites section below and follow the steps
 
 1. In the Positron Assistant pane, ensure your chat is in `Ask` mode. You can switch modes by clicking on the mode selector at the bottom of the chat pane.
 
+1. We recommend selecting the **Claude 4 Sonnet** model for this activity. You can change the model by clicking on the model name at the bottom of the chat pane.
+
 1. Use the example messages below to explore the Georgia Aquarium Species dataset.
 
 #### Example prompts
 
 Try out these example prompts in `Ask` mode!
+
+```
+Tell me about the dataset
+```
 
 ```
 What region has the most animals with the highest conservation risk?
@@ -113,13 +124,21 @@ Extract the animal's primary color from their physical characteristics.
 Categorize the different types of habitats and then count the number of species in each habitat type.
 ```
 
-### Step 3: Export the chat conversation
+### Step 3: View the data in the Data Explorer
 
-1. Use <kbd>Ctrl/Cmd + Shift + P</kbd> to open the Command Palette, or click on the Search bar at the top of the Positron Window and click `Show and Run Commands >` to open the Command Palette
+For guidance from Assistant, ask:
 
-1. Run the [command "Positron Assistant: Export the current chat to a file in the workspace](command:positron-assistant.exportChatToFileInWorkspace), which will export the current chat conversation into a JSON file in your project directory.
+```
+Show me the data in the Data Explorer
+```
 
-1. View the exported chat conversation by clicking the <kbd>Open chat log</kbd> in the notification that appears in the bottom right corner of Positron.
+Follow these steps to view data tables in the Data Explorer:
+
+1. Run the [command "Session: Focus on Variables View"](command:positronVariables.focus), which will open up the Variables View if it is not already open.
+
+1. Click the "View Data Table" icon or double-click on any of the table variables to open them in the Data Explorer.
+
+1. Play around with the Data Explorer to filter, sort, and visualize the data. For more information, see the [Data Explorer documentation](https://positron.posit.co/data-explorer.html).
 
 You're done! 🎉
 
@@ -180,11 +199,17 @@ You're done! 🎉
 
 1. In the Positron Assistant pane, ensure your chat is in `Ask` mode. You can switch modes by clicking on the mode selector at the bottom of the chat pane.
 
+1. We recommend selecting the **Claude 4 Sonnet** model for this activity. You can change the model by clicking on the model name at the bottom of the chat pane.
+
 1. Use the example messages below to explore the Atlanta Falcons football team datasets.
 
 #### Example prompts
 
 Try out these example prompts in `Ask` mode!
+
+```
+Tell me about the dataset
+```
 
 ```
 Which player has the highest win-loss percentage?
@@ -202,13 +227,21 @@ Which players had the highest variation in the high- and low-scoring teams?
 Which coaches had the biggest impacts on Points For (PF), Points Against (PA), and wins in their first two seasons?
 ```
 
-### Step 3: Export the chat conversation
+### Step 3: View the data in the Data Explorer
 
-1. Use <kbd>Ctrl/Cmd + Shift + P</kbd> to open the Command Palette, or click on the Search bar at the top of the Positron Window and click `Show and Run Commands >` to open the Command Palette
+For guidance from Assistant, ask:
 
-1. Run the [command "Positron Assistant: Export the current chat to a file in the workspace](command:positron-assistant.exportChatToFileInWorkspace), which will export the current chat conversation into a JSON file in your project directory.
+```
+Show me the data in the Data Explorer
+```
 
-1. View the exported chat conversation by clicking the <kbd>Open chat log</kbd> in the notification that appears in the bottom right corner of Positron.
+Follow these steps to view data tables in the Data Explorer:
+
+1. Run the [command "Session: Focus on Variables View"](command:positronVariables.focus), which will open up the Variables View if it is not already open.
+
+1. Click the "View Data Table" icon or double-click on any of the table variables to open them in the Data Explorer.
+
+1. Play around with the Data Explorer to filter, sort, and visualize the data. For more information, see the [Data Explorer documentation](https://positron.posit.co/data-explorer.html).
 
 You're done! 🎉
 

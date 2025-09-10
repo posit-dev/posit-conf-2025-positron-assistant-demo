@@ -6,4 +6,7 @@
     ],
     "editor.tabSize": 4
   },
+  "positron.assistant.enable": true,
+  "positron.r.defaultRepositories": "posit-ppm",
+  "workbench.editor.pinnedTabsOnSeparateRow": true,
 }
