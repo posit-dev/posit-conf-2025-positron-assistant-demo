@@ -35,6 +35,9 @@ Otherwise, click to expand the pre-requisites section below and follow the steps
 
 1. Use the [Positron Assistant guide](https://positron.posit.co/assistant.html) to set up Positron Assistant with an Anthropic API key
 
+> [!TIP]
+> For the best results with this activity, we recommend Anthropic's Claude Sonnet 4 model.
+
 #### Python demo pre-requisites
 
 1. Ensure you have a Python interpreter (3.9 through 3.13) installed on your machine
