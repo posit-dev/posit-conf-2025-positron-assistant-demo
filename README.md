@@ -35,10 +35,7 @@ Otherwise, click to expand the pre-requisites section below and follow the steps
 
     1. Click <kbd>OK</kbd>
 
-1. Use the [Positron Assistant guide](https://positron.posit.co/assistant.html) to set up Positron Assistant with an Anthropic API key
-
-> [!TIP]
-> For the best results with this activity, we recommend Anthropic's Claude 4 Sonnet model.
+1. Use the [Positron Assistant guide](https://positron.posit.co/assistant.html) to set up Positron Assistant with an Anthropic API key. For the best results with this activity, we recommend Anthropic's Claude 4 Sonnet model.
 
 #### Python demo pre-requisites
 
