@@ -75,7 +75,7 @@ Otherwise, click to expand the pre-requisites section below and follow the steps
 
 ### Step 1: Run the script in the Console
 
-1. Open up [the Python script](./python-demo.py) in an editor
+1. Open up the Python script [python-demo.py](./python-demo.py) in an editor
 
 1. Run the script by clicking the **Play** button in the Editor Actions bar
 
@@ -154,7 +154,7 @@ Categorize the different types of habitats and then count the number of species 
 
 1. Switch to `Agent` mode by clicking on the mode selector at the bottom of the chat pane and selecting `Agent`.
 
-1. Ensure you have the [demo script](./python-demo.py) attached to the chat context. If it is not already attached:
+1. Ensure you have [python-demo.py](./python-demo.py) attached to the chat context. If it is not already attached:
 
     1. Open the file in the editor
 
@@ -180,7 +180,7 @@ Categorize the different types of habitats and then count the number of species 
 
 ### Step 1: Run the script in the Console
 
-1. Open up [the R script](./r-demo.R) in an editor
+1. Open up the R script [r-demo.R](./r-demo.R) in an editor
 
 1. Run the script by clicking the **Play** button in the Editor Actions bar
 
@@ -253,7 +253,7 @@ Which coaches had the biggest impacts on Points For (PF), Points Against (PA), a
 
 1. Switch to `Agent` mode by clicking on the mode selector at the bottom of the chat pane and selecting `Agent`.
 
-1. Ensure you have the [demo script](./r-demo.R) attached to the chat context. If it is not already attached:
+1. Ensure you have [r-demo.R](./r-demo.R) attached to the chat context. If it is not already attached:
 
     1. Open the file in the editor
 
