@@ -1,4 +1,6 @@
 .DS_Store
+README_files/
+README.html
 
 ######################################################################
 # From https://github.com/github/gitignore/blob/main/Python.gitignore

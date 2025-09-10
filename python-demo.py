@@ -7,8 +7,6 @@ import polars as pl
 species = pl.read_csv("./data/georgia-aquarium-species.csv")
 species
 
-
-
 # %% Summarize the number of species by conservation status
 
 # Create an order for the categorical data

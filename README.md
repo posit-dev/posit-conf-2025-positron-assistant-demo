@@ -244,8 +244,6 @@ Which players had the highest variation in the high- and low-scoring teams?
 Which coaches had the biggest impacts on Points For (PF), Points Against (PA), and wins in their first two seasons?
 ```
 
-
-
 ### Step 4: [OPTIONAL] Explore more with `Agent` mode
 
 <details>
