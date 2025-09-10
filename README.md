@@ -101,6 +101,10 @@ Otherwise, click to expand the pre-requisites section below and follow the steps
 Try out these example prompts in `Ask` mode!
 
 ```
+Tell me about the dataset
+```
+
+```
 What region has the most animals with the highest conservation risk?
 ```
 
@@ -116,13 +120,21 @@ Extract the animal's primary color from their physical characteristics.
 Categorize the different types of habitats and then count the number of species in each habitat type.
 ```
 
-### Step 3: Export the chat conversation
+### Step 3: View the data in the Data Explorer
 
-1. Use <kbd>Ctrl/Cmd + Shift + P</kbd> to open the Command Palette, or click on the Search bar at the top of the Positron Window and click `Show and Run Commands >` to open the Command Palette
+For guidance from Assistant, ask:
 
-1. Run the [command "Positron Assistant: Export the current chat to a file in the workspace](command:positron-assistant.exportChatToFileInWorkspace), which will export the current chat conversation into a JSON file in your project directory.
+```
+Show me the data in the Data Explorer
+```
 
-1. View the exported chat conversation by clicking the <kbd>Open chat log</kbd> button in the notification that appears in the bottom right corner of Positron.
+Follow these steps to view data tables in the Data Explorer:
+
+1. Run the [command "Session: Focus on Variables View"](command:positronVariables.focus), which will open up the Variables View if it is not already open.
+
+1. Click the "View Data Table" icon or double-click on any of the table variables to open them in the Data Explorer.
+
+1. Play around with the Data Explorer to filter, sort, and visualize the data. For more information, see the [Data Explorer documentation](https://positron.posit.co/data-explorer.html).
 
 You're done! 🎉
 
@@ -190,6 +202,10 @@ You're done! 🎉
 Try out these example prompts in `Ask` mode!
 
 ```
+Tell me about the dataset
+```
+
+```
 Which player has the highest win-loss percentage?
 ```
 
@@ -205,13 +221,21 @@ Which players had the highest variation in the high- and low-scoring teams?
 Which coaches had the biggest impacts on Points For (PF), Points Against (PA), and wins in their first two seasons?
 ```
 
-### Step 3: Export the chat conversation
+### Step 3: View the data in the Data Explorer
 
-1. Use <kbd>Ctrl/Cmd + Shift + P</kbd> to open the Command Palette, or click on the Search bar at the top of the Positron Window and click `Show and Run Commands >` to open the Command Palette
+For guidance from Assistant, ask:
 
-1. Run the [command "Positron Assistant: Export the current chat to a file in the workspace](command:positron-assistant.exportChatToFileInWorkspace), which will export the current chat conversation into a JSON file in your project directory.
+```
+Show me the data in the Data Explorer
+```
 
-1. View the exported chat conversation by clicking the <kbd>Open chat log</kbd> button in the notification that appears in the bottom right corner of Positron.
+Follow these steps to view data tables in the Data Explorer:
+
+1. Run the [command "Session: Focus on Variables View"](command:positronVariables.focus), which will open up the Variables View if it is not already open.
+
+1. Click the "View Data Table" icon or double-click on any of the table variables to open them in the Data Explorer.
+
+1. Play around with the Data Explorer to filter, sort, and visualize the data. For more information, see the [Data Explorer documentation](https://positron.posit.co/data-explorer.html).
 
 You're done! 🎉
 
