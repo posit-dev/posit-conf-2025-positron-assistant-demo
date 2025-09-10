@@ -109,7 +109,7 @@ You're done!
 
 1. Open the Positron Assistant pane by clicking on the Positron Assistant robot icon in the sidebar, or by opening the Command Palette (<kbd>Cmd/Ctrl + Shift + P</kbd>) and running the [command "View: Show Chat"](command:workbench.panel.chat).
 
-1. In the Positron Assistant pane, ensure your chat is in `Ask` mode. You can switch modes by clicking on the mode selector at the bottom of the chat pane.
+1. In the Positron Assistant pane, ensure your chat is in `Ask` mode. You can switch modes by clicking on the mode selector at the bottom of the chat pane. Positron Assistant offers three modes: `Ask` for questions and help (default), `Edit` for collaborative code modifications, and `Agent` for autonomous task execution including file management and code execution.
 
 1. We recommend selecting the **Claude 4 Sonnet** model for this activity. You can change the model by clicking on the model name at the bottom of the chat pane.
 
@@ -208,7 +208,7 @@ You're done! 🎉
 
 1. Open the Positron Assistant pane by clicking on the Positron Assistant robot icon in the sidebar, or by opening the Command Palette (<kbd>Cmd/Ctrl + Shift + P</kbd>) and running the [command "View: Show Chat"](command:workbench.panel.chat).
 
-1. In the Positron Assistant pane, ensure your chat is in `Ask` mode. You can switch modes by clicking on the mode selector at the bottom of the chat pane.
+1. In the Positron Assistant pane, ensure your chat is in `Ask` mode. You can switch modes by clicking on the mode selector at the bottom of the chat pane. Positron Assistant offers three modes: `Ask` for questions and help (default), `Edit` for collaborative code modifications, and `Agent` for autonomous task execution including file management and code execution.
 
 1. We recommend selecting the **Claude 4 Sonnet** model for this activity. You can change the model by clicking on the model name at the bottom of the chat pane.
 
