@@ -1,3 +1,2 @@
-plotnine
+shiny
 polars
-pyarrow
