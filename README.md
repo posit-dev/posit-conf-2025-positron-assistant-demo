@@ -101,7 +101,7 @@ Follow these steps to view data tables in the Data Explorer:
 
     - Use the "Summary Panel" to see the distribution of `conservation_status`. What is the most common status?
 
-    - Sort the data by `conservation_status` and `scientific_name`.
+    - Sort the data by `conservation_status` and `scientific_name` by right clicking on the column name and clicking "Sort Ascending" or "Sort Descending".
 
 
 ### Step 3: Explore the data with Positron Assistant
@@ -205,7 +205,7 @@ Follow these steps to view data tables in the Data Explorer:
 
     - Use the "Summary Panel" to see the distribution of `Head Coach`. Which Head Coach has the longest tenure?
 
-    - Sort the data by `W` (wins) and `PF` (points for).
+    - Sort the data by `W` (wins) and `PF` (points for) by right clicking on the column name and clicking "Sort Ascending" or "Sort Descending".
 
 You're done! 🎉
 
