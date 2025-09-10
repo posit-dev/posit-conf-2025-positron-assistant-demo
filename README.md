@@ -46,7 +46,9 @@ Otherwise, click to expand the pre-requisites section below and follow the steps
 
     1. Run the [command "Python: Create Environment..."](command:python.createEnvironment) in the Command Palette
 
-    1. Select `Venv` or `uv` as the environment type and pick a base interpreter
+    1. Select `Venv` as the environment type
+    
+    1. Pick a base interpreter (we recommend the latest version of Python)
 
     1. Select the `requirements.txt` file in the dropdown to install the required packages
 
