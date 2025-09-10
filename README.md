@@ -35,7 +35,7 @@ Otherwise, click to expand the pre-requisites section below and follow the steps
 
     1. Click <kbd>OK</kbd>
 
-1. Use the [Positron Assistant guide](https://positron.posit.co/assistant.html) to set up Positron Assistant with an Anthropic API key. For the best results with this activity, we recommend Anthropic's Claude 4 Sonnet model.
+1. Use the [Positron Assistant guide](https://positron.posit.co/assistant.html) to set up Positron Assistant with an Anthropic API key.
 
 #### Python demo pre-requisites
 
@@ -64,7 +64,7 @@ Otherwise, click to expand the pre-requisites section below and follow the steps
 1. Install the required packages by running the following commands in the R Console:
 
     ```r
-    install.packages(c("tidyverse"))
+    install.packages("tidyverse")
     ```
 
 1. You're all set! Jump to the [R demo](#-r-demo) section and follow the steps!
@@ -93,7 +93,7 @@ Follow these steps to view data tables in the Data Explorer:
 
 1. Run the [command "Session: Focus on Variables View"](command:positronVariables.focus), which will open up the Variables View if it is not already open.
 
-1. Click the "View Data Table" icon or double-click on any of the table variables to open them in the Data Explorer.
+1. In the Variables View, double-click on the `species` variable or click the "View Data Table" icon to open the table in the Data Explorer.
 
 1. Play around with the Data Explorer to filter, sort, and visualize the data. For more information, see the [Data Explorer documentation](https://positron.posit.co/data-explorer.html).
 
@@ -101,9 +101,8 @@ Follow these steps to view data tables in the Data Explorer:
 
     - Use the "Summary Panel" to see the distribution of `conservation_status`. What is the most common status?
 
-    - Sort the data by `conservation_status` and `scientific_name`.
+    - Sort the data by `conservation_status` and `scientific_name` by right clicking on the column name and clicking "Sort Ascending" or "Sort Descending".
 
-You're done! 
 
 ### Step 3: Explore the data with Positron Assistant
 
@@ -139,7 +138,7 @@ Extract the animal's primary color from their physical characteristics.
 Categorize the different types of habitats and then count the number of species in each habitat type.
 ```
 
-🎉
+You're done! 🎉
 
 ### Step 4: [OPTIONAL] Explore more with `Agent` mode
 
@@ -198,7 +197,7 @@ Follow these steps to view data tables in the Data Explorer:
 
 1. Run the [command "Session: Focus on Variables View"](command:positronVariables.focus), which will open up the Variables View if it is not already open.
 
-1. Click the "View Data Table" icon or double-click on any of the table variables to open them in the Data Explorer. Start with the `falcons_seasons` dataframe.
+1. In the Variables View, click the "View Data Table" icon or double-click on any of the table variables to open them in the Data Explorer. Start with the `falcons_seasons` dataframe.
 
 1. Play around with the Data Explorer to filter, sort, and visualize the data. For more information, see the [Data Explorer documentation](https://positron.posit.co/data-explorer.html).
 
@@ -206,7 +205,7 @@ Follow these steps to view data tables in the Data Explorer:
 
     - Use the "Summary Panel" to see the distribution of `Head Coach`. Which Head Coach has the longest tenure?
 
-    - Sort the data by `W` (wins) and `PF` (points for).
+    - Sort the data by `W` (wins) and `PF` (points for) by right clicking on the column name and clicking "Sort Ascending" or "Sort Descending".
 
 You're done! 🎉
 
