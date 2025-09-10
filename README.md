@@ -64,7 +64,7 @@ Otherwise, click to expand the pre-requisites section below and follow the steps
 1. Install the required packages by running the following commands in the R Console:
 
     ```r
-    install.packages(c("tidyverse", "patchwork"))
+    install.packages(c("tidyverse"))
     ```
 
 1. You're all set! Jump to the [R demo](#-r-demo) section and follow the steps!

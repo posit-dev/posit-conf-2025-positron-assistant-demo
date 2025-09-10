@@ -1,7 +1,6 @@
 # Load libraries and data
 
 library(tidyverse)
-library(patchwork)
 
 falcons_roster <- read_csv("data/falcons-roster.csv")
 falcons_scores <- read_csv("data/falcons-scores.csv")
