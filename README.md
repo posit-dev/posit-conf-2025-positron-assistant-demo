@@ -198,9 +198,15 @@ Follow these steps to view data tables in the Data Explorer:
 
 1. Run the [command "Session: Focus on Variables View"](command:positronVariables.focus), which will open up the Variables View if it is not already open.
 
-1. Click the "View Data Table" icon or double-click on any of the table variables to open them in the Data Explorer.
+1. Click the "View Data Table" icon or double-click on any of the table variables to open them in the Data Explorer. Start with the `falcons_seasons` dataframe.
 
 1. Play around with the Data Explorer to filter, sort, and visualize the data. For more information, see the [Data Explorer documentation](https://positron.posit.co/data-explorer.html).
+
+    - Open the "Summary Panel", which columns are missing data?
+
+    - Use the "Summary Panel" to see the distribution of `Head Coach`. Which Head Coach has the longest tenure?
+
+    - Sort the data by `W` (wins) and `PF` (points for).
 
 You're done! 🎉
 
