@@ -89,12 +89,6 @@ Otherwise, click to expand the pre-requisites section below and follow the steps
 
 ### Step 2: View the data in the Data Explorer
 
-For guidance from Assistant, ask:
-
-```
-Show me the data in the Data Explorer
-```
-
 Follow these steps to view data tables in the Data Explorer:
 
 1. Run the [command "Session: Focus on Variables View"](command:positronVariables.focus), which will open up the Variables View if it is not already open.
@@ -193,12 +187,6 @@ Categorize the different types of habitats and then count the number of species 
         - a plot rendered in the Plots pane
 
 ### Step 2: View the data in the Data Explorer
-
-For guidance from Assistant, ask:
-
-```
-Show me the data in the Data Explorer
-```
 
 Follow these steps to view data tables in the Data Explorer:
 
