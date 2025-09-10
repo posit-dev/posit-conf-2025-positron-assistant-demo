@@ -87,7 +87,25 @@ Otherwise, click to expand the pre-requisites section below and follow the steps
 
         - a plot rendered in the Plots pane
 
-### Step 2: Explore the data with Positron Assistant
+### Step 2: View the data in the Data Explorer
+
+For guidance from Assistant, ask:
+
+```
+Show me the data in the Data Explorer
+```
+
+Follow these steps to view data tables in the Data Explorer:
+
+1. Run the [command "Session: Focus on Variables View"](command:positronVariables.focus), which will open up the Variables View if it is not already open.
+
+1. Click the "View Data Table" icon or double-click on any of the table variables to open them in the Data Explorer.
+
+1. Play around with the Data Explorer to filter, sort, and visualize the data. For more information, see the [Data Explorer documentation](https://positron.posit.co/data-explorer.html).
+
+You're done! 
+
+### Step 3: Explore the data with Positron Assistant
 
 1. Open the Positron Assistant pane by clicking on the Positron Assistant robot icon in the sidebar, or by opening the Command Palette (<kbd>Cmd/Ctrl + Shift + P</kbd>) and running the [command "View: Show Chat"](command:workbench.panel.chat).
 
@@ -121,23 +139,7 @@ Extract the animal's primary color from their physical characteristics.
 Categorize the different types of habitats and then count the number of species in each habitat type.
 ```
 
-### Step 3: View the data in the Data Explorer
-
-For guidance from Assistant, ask:
-
-```
-Show me the data in the Data Explorer
-```
-
-Follow these steps to view data tables in the Data Explorer:
-
-1. Run the [command "Session: Focus on Variables View"](command:positronVariables.focus), which will open up the Variables View if it is not already open.
-
-1. Click the "View Data Table" icon or double-click on any of the table variables to open them in the Data Explorer.
-
-1. Play around with the Data Explorer to filter, sort, and visualize the data. For more information, see the [Data Explorer documentation](https://positron.posit.co/data-explorer.html).
-
-You're done! 🎉
+🎉
 
 ### Step 4: [OPTIONAL] Explore more with `Agent` mode
 
@@ -190,7 +192,25 @@ You're done! 🎉
 
         - a plot rendered in the Plots pane
 
-### Step 2: Explore the data with Positron Assistant
+### Step 2: View the data in the Data Explorer
+
+For guidance from Assistant, ask:
+
+```
+Show me the data in the Data Explorer
+```
+
+Follow these steps to view data tables in the Data Explorer:
+
+1. Run the [command "Session: Focus on Variables View"](command:positronVariables.focus), which will open up the Variables View if it is not already open.
+
+1. Click the "View Data Table" icon or double-click on any of the table variables to open them in the Data Explorer.
+
+1. Play around with the Data Explorer to filter, sort, and visualize the data. For more information, see the [Data Explorer documentation](https://positron.posit.co/data-explorer.html).
+
+You're done! 🎉
+
+### Step 3: Explore the data with Positron Assistant
 
 1. Open the Positron Assistant pane by clicking on the Positron Assistant robot icon in the sidebar, or by opening the Command Palette (<kbd>Cmd/Ctrl + Shift + P</kbd>) and running the [command "View: Show Chat"](command:workbench.panel.chat).
 
@@ -224,23 +244,7 @@ Which players had the highest variation in the high- and low-scoring teams?
 Which coaches had the biggest impacts on Points For (PF), Points Against (PA), and wins in their first two seasons?
 ```
 
-### Step 3: View the data in the Data Explorer
 
-For guidance from Assistant, ask:
-
-```
-Show me the data in the Data Explorer
-```
-
-Follow these steps to view data tables in the Data Explorer:
-
-1. Run the [command "Session: Focus on Variables View"](command:positronVariables.focus), which will open up the Variables View if it is not already open.
-
-1. Click the "View Data Table" icon or double-click on any of the table variables to open them in the Data Explorer.
-
-1. Play around with the Data Explorer to filter, sort, and visualize the data. For more information, see the [Data Explorer documentation](https://positron.posit.co/data-explorer.html).
-
-You're done! 🎉
 
 ### Step 4: [OPTIONAL] Explore more with `Agent` mode
 
