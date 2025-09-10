@@ -7,7 +7,9 @@ import polars as pl
 species = pl.read_csv("./data/georgia-aquarium-species.csv")
 species
 
-# %% Create an order for the categorical data
+# %% Summarize the number of species by conservation status
+
+# Create an order for the categorical data
 conservation_status_enum = pl.Enum(
     [
         # Conservation categories from most to least threatened
@@ -24,18 +26,12 @@ conservation_status_enum = pl.Enum(
     ]
 )
 
-species = (
+# Create a summary table
+conservation_status_summary = (
     species
     .with_columns(
         pl.col("conservation_status").cast(conservation_status_enum)
     )
-)
-
-species
-
-# %% Summarize the number of species by conservation status
-conservation_status_summary = (
-    species
     .group_by("conservation_status")
     .len()
     .sort("conservation_status", descending=True)

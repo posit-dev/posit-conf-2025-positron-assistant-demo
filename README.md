@@ -35,10 +35,7 @@ Otherwise, click to expand the pre-requisites section below and follow the steps
 
     1. Click <kbd>OK</kbd>
 
-1. Use the [Positron Assistant guide](https://positron.posit.co/assistant.html) to set up Positron Assistant with an Anthropic API key
-
-> [!TIP]
-> For the best results with this activity, we recommend Anthropic's Claude 4 Sonnet model.
+1. Use the [Positron Assistant guide](https://positron.posit.co/assistant.html) to set up Positron Assistant with an Anthropic API key.
 
 #### Python demo pre-requisites
 
@@ -67,7 +64,7 @@ Otherwise, click to expand the pre-requisites section below and follow the steps
 1. Install the required packages by running the following commands in the R Console:
 
     ```r
-    install.packages(c("tidyverse", "patchwork"))
+    install.packages("tidyverse")
     ```
 
 1. You're all set! Jump to the [R demo](#-r-demo) section and follow the steps!
@@ -78,7 +75,7 @@ Otherwise, click to expand the pre-requisites section below and follow the steps
 
 ### Step 1: Run the script in the Console
 
-1. Open up [the Python script](./python-demo.py) in an editor
+1. Open up the Python script [python-demo.py](./python-demo.py) in an editor
 
 1. Run the script by clicking the **Play** button in the Editor Actions bar
 
@@ -90,11 +87,28 @@ Otherwise, click to expand the pre-requisites section below and follow the steps
 
         - a plot rendered in the Plots pane
 
-### Step 2: Explore the data with Positron Assistant
+### Step 2: View the data in the Data Explorer
+
+Follow these steps to view data tables in the Data Explorer:
+
+1. Run the [command "Session: Focus on Variables View"](command:positronVariables.focus), which will open up the Variables View if it is not already open.
+
+1. In the Variables View, double-click on the `species` variable or click the "View Data Table" icon to open the table in the Data Explorer.
+
+1. Play around with the Data Explorer to filter, sort, and visualize the data. For more information, see the [Data Explorer documentation](https://positron.posit.co/data-explorer.html).
+
+    - Open the "Summary Panel", which columns are missing data?
+
+    - Use the "Summary Panel" to see the distribution of `conservation_status`. What is the most common status?
+
+    - Sort the data by `conservation_status` and `scientific_name` by right clicking on the column name and clicking "Sort Ascending" or "Sort Descending".
+
+
+### Step 3: Explore the data with Positron Assistant
 
 1. Open the Positron Assistant pane by clicking on the Positron Assistant robot icon in the sidebar, or by opening the Command Palette (<kbd>Cmd/Ctrl + Shift + P</kbd>) and running the [command "View: Show Chat"](command:workbench.panel.chat).
 
-1. In the Positron Assistant pane, ensure your chat is in `Ask` mode. You can switch modes by clicking on the mode selector at the bottom of the chat pane.
+1. In the Positron Assistant pane, ensure your chat is in `Ask` mode. You can switch modes by clicking on the mode selector at the bottom of the chat pane. Positron Assistant offers three modes: `Ask` for questions and help (default), `Edit` for collaborative code modifications, and `Agent` for autonomous task execution including file management and code execution.
 
 1. We recommend selecting the **Claude 4 Sonnet** model for this activity. You can change the model by clicking on the model name at the bottom of the chat pane.
 
@@ -124,22 +138,6 @@ Extract the animal's primary color from their physical characteristics.
 Categorize the different types of habitats and then count the number of species in each habitat type.
 ```
 
-### Step 3: View the data in the Data Explorer
-
-For guidance from Assistant, ask:
-
-```
-Show me the data in the Data Explorer
-```
-
-Follow these steps to view data tables in the Data Explorer:
-
-1. Run the [command "Session: Focus on Variables View"](command:positronVariables.focus), which will open up the Variables View if it is not already open.
-
-1. Click the "View Data Table" icon or double-click on any of the table variables to open them in the Data Explorer.
-
-1. Play around with the Data Explorer to filter, sort, and visualize the data. For more information, see the [Data Explorer documentation](https://positron.posit.co/data-explorer.html).
-
 You're done! 🎉
 
 ### Step 4: [OPTIONAL] Explore more with `Agent` mode
@@ -155,7 +153,7 @@ You're done! 🎉
 
 1. Switch to `Agent` mode by clicking on the mode selector at the bottom of the chat pane and selecting `Agent`.
 
-1. Ensure you have the [demo script](./python-demo.py) attached to the chat context. If it is not already attached:
+1. Ensure you have [python-demo.py](./python-demo.py) attached to the chat context. If it is not already attached:
 
     1. Open the file in the editor
 
@@ -181,7 +179,7 @@ You're done! 🎉
 
 ### Step 1: Run the script in the Console
 
-1. Open up [the R script](./r-demo.R) in an editor
+1. Open up the R script [r-demo.R](./r-demo.R) in an editor
 
 1. Run the script by clicking the **Play** button in the Editor Actions bar
 
@@ -193,11 +191,29 @@ You're done! 🎉
 
         - a plot rendered in the Plots pane
 
-### Step 2: Explore the data with Positron Assistant
+### Step 2: View the data in the Data Explorer
+
+Follow these steps to view data tables in the Data Explorer:
+
+1. Run the [command "Session: Focus on Variables View"](command:positronVariables.focus), which will open up the Variables View if it is not already open.
+
+1. In the Variables View, click the "View Data Table" icon or double-click on any of the table variables to open them in the Data Explorer. Start with the `falcons_seasons` dataframe.
+
+1. Play around with the Data Explorer to filter, sort, and visualize the data. For more information, see the [Data Explorer documentation](https://positron.posit.co/data-explorer.html).
+
+    - Open the "Summary Panel", which columns are missing data?
+
+    - Use the "Summary Panel" to see the distribution of `Head Coach`. Which Head Coach has the longest tenure?
+
+    - Sort the data by `W` (wins) and `PF` (points for) by right clicking on the column name and clicking "Sort Ascending" or "Sort Descending".
+
+You're done! 🎉
+
+### Step 3: Explore the data with Positron Assistant
 
 1. Open the Positron Assistant pane by clicking on the Positron Assistant robot icon in the sidebar, or by opening the Command Palette (<kbd>Cmd/Ctrl + Shift + P</kbd>) and running the [command "View: Show Chat"](command:workbench.panel.chat).
 
-1. In the Positron Assistant pane, ensure your chat is in `Ask` mode. You can switch modes by clicking on the mode selector at the bottom of the chat pane.
+1. In the Positron Assistant pane, ensure your chat is in `Ask` mode. You can switch modes by clicking on the mode selector at the bottom of the chat pane. Positron Assistant offers three modes: `Ask` for questions and help (default), `Edit` for collaborative code modifications, and `Agent` for autonomous task execution including file management and code execution.
 
 1. We recommend selecting the **Claude 4 Sonnet** model for this activity. You can change the model by clicking on the model name at the bottom of the chat pane.
 
@@ -227,24 +243,6 @@ Which players had the highest variation in the high- and low-scoring teams?
 Which coaches had the biggest impacts on Points For (PF), Points Against (PA), and wins in their first two seasons?
 ```
 
-### Step 3: View the data in the Data Explorer
-
-For guidance from Assistant, ask:
-
-```
-Show me the data in the Data Explorer
-```
-
-Follow these steps to view data tables in the Data Explorer:
-
-1. Run the [command "Session: Focus on Variables View"](command:positronVariables.focus), which will open up the Variables View if it is not already open.
-
-1. Click the "View Data Table" icon or double-click on any of the table variables to open them in the Data Explorer.
-
-1. Play around with the Data Explorer to filter, sort, and visualize the data. For more information, see the [Data Explorer documentation](https://positron.posit.co/data-explorer.html).
-
-You're done! 🎉
-
 ### Step 4: [OPTIONAL] Explore more with `Agent` mode
 
 <details>
@@ -258,7 +256,7 @@ You're done! 🎉
 
 1. Switch to `Agent` mode by clicking on the mode selector at the bottom of the chat pane and selecting `Agent`.
 
-1. Ensure you have the [demo script](./r-demo.R) attached to the chat context. If it is not already attached:
+1. Ensure you have [r-demo.R](./r-demo.R) attached to the chat context. If it is not already attached:
 
     1. Open the file in the editor
 
