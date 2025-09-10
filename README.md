@@ -120,7 +120,7 @@ Categorize the different types of habitats and then count the number of species 
 
 1. Run the [command "Positron Assistant: Export the current chat to a file in the workspace](command:positron-assistant.exportChatToFileInWorkspace), which will export the current chat conversation into a JSON file in your project directory.
 
-1. View the exported chat conversation by clicking the <kbd>Open chat log</kbd> in the notification that appears in the bottom right corner of Positron.
+1. View the exported chat conversation by clicking the <kbd>Open chat log</kbd> button in the notification that appears in the bottom right corner of Positron.
 
 You're done! 🎉
 
@@ -209,7 +209,7 @@ Which coaches had the biggest impacts on Points For (PF), Points Against (PA), a
 
 1. Run the [command "Positron Assistant: Export the current chat to a file in the workspace](command:positron-assistant.exportChatToFileInWorkspace), which will export the current chat conversation into a JSON file in your project directory.
 
-1. View the exported chat conversation by clicking the <kbd>Open chat log</kbd> in the notification that appears in the bottom right corner of Positron.
+1. View the exported chat conversation by clicking the <kbd>Open chat log</kbd> button in the notification that appears in the bottom right corner of Positron.
 
 You're done! 🎉
 
