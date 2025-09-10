@@ -46,10 +46,22 @@ app_ui = ui.page_sidebar(
         )
     ),
     ui.h1("Georgia Aquarium Species"),
-    ui.card(
-        ui.card_header("All Species in the Georgia Aquarium"),
-        ui.output_data_frame("species_table")
-    )
+    ui.layout_column_wrap(
+		ui.card(
+			ui.card_header("All Species in the Georgia Aquarium"),
+			ui.output_data_frame("species_table")
+		),
+		ui.card(
+			ui.card_header("Selected Species Details"),
+			ui.output_ui("species_details"),
+		),
+		# 2 columns when width is greater than 750px
+		width="500px",
+        heights_equal='row',
+	),
+	fillable=True,
+    title="🐟 posit::conf(2025) Georgia Aquarium Species App",
+    window_title="🐟 posit::conf(2025) Georgia Aquarium Species App",
 )
 
 def server(input, output, session):
@@ -92,8 +104,89 @@ def server(input, output, session):
     @render.data_frame
     def species_table():
         return render.DataGrid(
-            filtered_species().select(pl.col("name"), pl.col("conservation_status")),
+			filtered_species().select(pl.col("name"), pl.col("conservation_status")),
             width="100%",
+            selection_mode="row"
+		)
+    
+    
+    @render.ui
+    def species_details():
+        selected_rows = input.species_table_selected_rows()
+
+        if not selected_rows:
+            selected_index = 0
+        else:
+            selected_index = selected_rows[0]  # Get first selected row
+
+        # Get the selected species data
+        filtered_df = filtered_species()
+        
+        # Get the species data for the selected row
+        selected_species = filtered_df.slice(selected_index, 1)
+        selected_species_object = selected_species.row(0, named=True)
+        print(f"{selected_species_object=}")
+        
+        # Create conservation status badge with appropriate color
+        status_color = {
+            "Critically Endangered": "danger",
+            "Endangered": "warning", 
+            "Vulnerable": "warning",
+            "Near Threatened": "secondary",
+            "Least Concern": "success",
+            "Data Deficient": "info",
+            "Not Evaluated": "light"
+        }.get(selected_species_object["conservation_status"], "secondary")
+        
+        return ui.div(
+            ui.h4(f"{selected_species_object['name']}", class_="mb-2"),
+            ui.h6(f"Scientific name: {selected_species_object['scientific_name']}", class_="text-muted mb-3"),
+            ui.div(
+                ui.div(
+					ui.img(src=selected_species_object["image_url"]),
+                    class_="mb-2"
+				),
+                ui.div(
+                    ui.strong("Conservation Status: "),
+                    ui.span(selected_species_object["conservation_status"], class_=f"badge bg-{status_color} ms-2"),
+                    class_="mb-2"
+                ),
+                ui.div(
+                    ui.strong("Range: "), 
+                    ui.span(selected_species_object["range"]),
+                    class_="mb-2"
+                ),
+                ui.div(
+                    ui.strong("Habitat: "), 
+                    ui.span(selected_species_object["habitat"]),
+                    class_="mb-2"
+                ),
+                ui.div(
+                    ui.strong("Diet: "), 
+                    ui.span(selected_species_object["diet"]),
+                    class_="mb-2"
+                ),
+                ui.div(
+                    ui.strong("Size: "), 
+                    ui.span(selected_species_object["size"]),
+                    class_="mb-2"
+                ),
+                ui.div(
+                    ui.strong("Physical Characteristics: "), 
+                    ui.span(selected_species_object["physical_characteristics"]),
+                    class_="mb-2"
+                ),
+                ui.div(
+                    ui.strong("Fun Fact: "), 
+                    ui.span(selected_species_object["fun_fact"]),
+                    class_="mb-2"
+                ),
+                ui.div(
+					ui.a("Aquarium Page ↗", href=selected_species_object["url"], target="_blank"),
+                    class_="mb-2"
+				),
+                
+            )
         )
     
     @reactive.effect
