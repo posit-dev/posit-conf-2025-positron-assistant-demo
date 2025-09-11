@@ -13,6 +13,7 @@
                 "reset-layout",
                 "open-file-explorer",
                 "reset active console",
+                "open-chat-sidebar"
             ],
             "problemMatcher": []
         },
@@ -64,6 +65,12 @@
         {
             "label": "open-file-explorer",
             "command": "${command:workbench.view.explorer}",
+            "problemMatcher": [],
+            "hide": true
+        },
+        {
+            "label": "open-chat-sidebar",
+            "command": "${command:workbench.action.chat.openInSidebar}",
             "problemMatcher": [],
             "hide": true
         }
