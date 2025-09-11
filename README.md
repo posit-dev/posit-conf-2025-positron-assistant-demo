@@ -119,24 +119,24 @@ Follow these steps to view data tables in the Data Explorer:
 Try out these example prompts in `Ask` mode!
 
 ```
-Tell me about the dataset
+Please summarize the `species` data table
 ```
 
 ```
-What region has the most animals with the highest conservation risk?
+What do you see in the current plot?
 ```
 
 ```
-Extract the species size in inches.
+Explain the values of the `conservation_status` column. Is there a hierarchy?
 ```
 
 ```
-Extract the animal's primary color from their physical characteristics.
+Based on data tables in my session, please suggest some starter code for interesting analyses or visualizations
 ```
 
-```
-Categorize the different types of habitats and then count the number of species in each habitat type.
-```
+- Feel free to try out the code snippets Positron Assistant suggests by clicking the Play button on the code blocks.
+
+- If you run into issues, it's a good time to switch over to `Agent` mode (see optional next step) to let Positron Assistant help you debug!
 
 You're done! 🎉
 
@@ -222,7 +222,7 @@ Follow these steps to view data tables in the Data Explorer:
 Try out these example prompts in `Ask` mode!
 
 ```
-Please summarize the falcons_scores data table
+Please summarize the `falcons_scores` data table
 ```
 
 ```
@@ -230,12 +230,16 @@ What do you see in the current plot?
 ```
 
 ```
-What are 3 commonly analyzed aspects of football?
+Explain what each of the columns means for someone who does not watch football
 ```
 
 ```
-Based on the data tables in my session, can you suggest some interesting analyses or visualizations?
+Based on the data tables in my session, please suggest some interesting analyses or visualizations
 ```
+
+- Feel free to try out the code snippets Positron Assistant suggests by clicking the Play button on the code blocks.
+
+- If you run into issues, it's a good time to switch over to `Agent` mode (see optional next step) to let Positron Assistant help you debug!
 
 You're done! 🎉
 
