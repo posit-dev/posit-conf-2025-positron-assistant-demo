@@ -21,7 +21,7 @@ Otherwise, click to expand the pre-requisites section below and follow the steps
 
 ### Pre-requisites
 
-1. Install and open [Positron](https://positron.posit.co/download), ideally version 2025.09.0 or higher
+1. Install and open [Positron](https://positron.posit.co/download). We recommend Positron version 2025.09.0-139 or 2025.10.0-26.
 
 1. Copy this repository's GitHub URL to your clipboard: [`https://github.com/posit-dev/posit-conf-2025-positron-assistant-demo.git`](https://github.com/posit-dev/posit-conf-2025-positron-assistant-demo.git)
 
