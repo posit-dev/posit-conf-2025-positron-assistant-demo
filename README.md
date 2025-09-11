@@ -222,23 +222,19 @@ Follow these steps to view data tables in the Data Explorer:
 Try out these example prompts in `Ask` mode!
 
 ```
-Tell me about the dataset
+Please summarize the falcons_scores data table
 ```
 
 ```
-Which player has the highest win-loss percentage?
+What do you see in the current plot?
 ```
 
 ```
-Is it true that the Atlanta Falcons play worse on the road than at home?
+What are 3 commonly analyzed aspects of football?
 ```
 
 ```
-Which players had the highest variation in the high- and low-scoring teams?
-```
-
-```
-Which coaches had the biggest impacts on Points For (PF), Points Against (PA), and wins in their first two seasons?
+Based on the data tables in my session, can you suggest some interesting analyses or visualizations?
 ```
 
 You're done! 🎉
