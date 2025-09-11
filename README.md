@@ -207,8 +207,6 @@ Follow these steps to view data tables in the Data Explorer:
 
     - Sort the data by `W` (wins) and `PF` (points for) by right clicking on the column name and clicking "Sort Ascending" or "Sort Descending".
 
-You're done! 🎉
-
 ### Step 3: Explore the data with Positron Assistant
 
 1. Open the Positron Assistant pane by clicking on the Positron Assistant robot icon in the sidebar, or by opening the Command Palette (<kbd>Cmd/Ctrl + Shift + P</kbd>) and running the [command "View: Show Chat"](command:workbench.panel.chat).
@@ -242,6 +240,8 @@ Which players had the highest variation in the high- and low-scoring teams?
 ```
 Which coaches had the biggest impacts on Points For (PF), Points Against (PA), and wins in their first two seasons?
 ```
+
+You're done! 🎉
 
 ### Step 4: [OPTIONAL] Explore more with `Agent` mode
 
