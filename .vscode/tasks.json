@@ -7,12 +7,16 @@
             "label": "reset demo",
             "dependsOrder": "sequence",
             "dependsOn": [
-                "new-chat",
-                "clean-git",
+                // Reset layout
                 "close-all-editors",
                 "reset-layout",
-                "open-file-explorer",
+                // Reset chat UI
+                "open-chat-sidebar",
+                "new-chat",
+                // Reset active console
                 "reset active console",
+                // Drop all git changes
+                "clean-git",
             ],
             "problemMatcher": []
         },
@@ -64,6 +68,12 @@
         {
             "label": "open-file-explorer",
             "command": "${command:workbench.view.explorer}",
+            "problemMatcher": [],
+            "hide": true
+        },
+        {
+            "label": "open-chat-sidebar",
+            "command": "${command:workbench.action.chat.openInSidebar}",
             "problemMatcher": [],
             "hide": true
         }

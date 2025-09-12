@@ -21,7 +21,7 @@ Otherwise, click to expand the pre-requisites section below and follow the steps
 
 ### Pre-requisites
 
-1. Install and open [Positron](https://positron.posit.co/download), ideally version 2025.09.0 or higher
+1. Install and open [Positron](https://positron.posit.co/download). We recommend the latest stable Positron version 2025.09.0-139.
 
 1. Copy this repository's GitHub URL to your clipboard: [`https://github.com/posit-dev/posit-conf-2025-positron-assistant-demo.git`](https://github.com/posit-dev/posit-conf-2025-positron-assistant-demo.git)
 
@@ -119,24 +119,24 @@ Follow these steps to view data tables in the Data Explorer:
 Try out these example prompts in `Ask` mode!
 
 ```
-Tell me about the dataset
+Please summarize the `species` data table
 ```
 
 ```
-What region has the most animals with the highest conservation risk?
+What do you see in the current plot?
 ```
 
 ```
-Extract the species size in inches.
+Explain the values of the `conservation_status` column. Is there a hierarchy?
 ```
 
 ```
-Extract the animal's primary color from their physical characteristics.
+Based on data tables in my session, please suggest some starter code for interesting analyses or visualizations
 ```
 
-```
-Categorize the different types of habitats and then count the number of species in each habitat type.
-```
+- Try out the code snippets Positron Assistant suggests by clicking the Play button on the code blocks.
+
+- If you run into issues, it's a good time to switch over to `Agent` mode (see optional next step) to let Positron Assistant help you debug!
 
 You're done! 🎉
 
@@ -207,8 +207,6 @@ Follow these steps to view data tables in the Data Explorer:
 
     - Sort the data by `W` (wins) and `PF` (points for) by right clicking on the column name and clicking "Sort Ascending" or "Sort Descending".
 
-You're done! 🎉
-
 ### Step 3: Explore the data with Positron Assistant
 
 1. Open the Positron Assistant pane by clicking on the Positron Assistant robot icon in the sidebar, or by opening the Command Palette (<kbd>Cmd/Ctrl + Shift + P</kbd>) and running the [command "View: Show Chat"](command:workbench.panel.chat).
@@ -224,24 +222,26 @@ You're done! 🎉
 Try out these example prompts in `Ask` mode!
 
 ```
-Tell me about the dataset
+Please summarize the `falcons_scores` data table
 ```
 
 ```
-Which player has the highest win-loss percentage?
+What do you see in the current plot?
 ```
 
 ```
-Is it true that the Atlanta Falcons play worse on the road than at home?
+Explain what each of the columns means for someone who does not watch football
 ```
 
 ```
-Which players had the highest variation in the high- and low-scoring teams?
+Based on the data tables in my session, please suggest some interesting analyses or visualizations
 ```
 
-```
-Which coaches had the biggest impacts on Points For (PF), Points Against (PA), and wins in their first two seasons?
-```
+- Try out the code snippets Positron Assistant suggests by clicking the Play button on the code blocks.
+
+- If you run into issues, it's a good time to switch over to `Agent` mode (see optional next step) to let Positron Assistant help you debug!
+
+You're done! 🎉
 
 ### Step 4: [OPTIONAL] Explore more with `Agent` mode
 
