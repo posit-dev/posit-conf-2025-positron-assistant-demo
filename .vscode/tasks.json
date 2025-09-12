@@ -7,13 +7,16 @@
             "label": "reset demo",
             "dependsOrder": "sequence",
             "dependsOn": [
-                "new-chat",
-                "clean-git",
+                // Reset layout
                 "close-all-editors",
                 "reset-layout",
-                "open-file-explorer",
+                // Reset chat UI
+                "open-chat-sidebar",
+                "new-chat",
+                // Reset active console
                 "reset active console",
-                "open-chat-sidebar"
+                // Drop all git changes
+                "clean-git",
             ],
             "problemMatcher": []
         },
