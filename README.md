@@ -21,7 +21,7 @@ Otherwise, click to expand the pre-requisites section below and follow the steps
 
 ### Pre-requisites
 
-1. Install and open [Positron](https://positron.posit.co/download). We recommend Positron version 2025.09.0-139 or 2025.10.0-26.
+1. Install and open [Positron](https://positron.posit.co/download). We recommend the latest stable Positron version 2025.09.0-139.
 
 1. Copy this repository's GitHub URL to your clipboard: [`https://github.com/posit-dev/posit-conf-2025-positron-assistant-demo.git`](https://github.com/posit-dev/posit-conf-2025-positron-assistant-demo.git)
 
@@ -134,7 +134,7 @@ Explain the values of the `conservation_status` column. Is there a hierarchy?
 Based on data tables in my session, please suggest some starter code for interesting analyses or visualizations
 ```
 
-- Feel free to try out the code snippets Positron Assistant suggests by clicking the Play button on the code blocks.
+- Try out the code snippets Positron Assistant suggests by clicking the Play button on the code blocks.
 
 - If you run into issues, it's a good time to switch over to `Agent` mode (see optional next step) to let Positron Assistant help you debug!
 
@@ -237,7 +237,7 @@ Explain what each of the columns means for someone who does not watch football
 Based on the data tables in my session, please suggest some interesting analyses or visualizations
 ```
 
-- Feel free to try out the code snippets Positron Assistant suggests by clicking the Play button on the code blocks.
+- Try out the code snippets Positron Assistant suggests by clicking the Play button on the code blocks.
 
 - If you run into issues, it's a good time to switch over to `Agent` mode (see optional next step) to let Positron Assistant help you debug!
 
