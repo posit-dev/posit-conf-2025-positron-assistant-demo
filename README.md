@@ -175,6 +175,43 @@ You're done! 🎉
 
 </details>
 
+### Step 5: [OPTIONAL] Explore more with `Edit` mode
+
+<details>
+<summary>Additional prompts for `Edit` mode</summary>
+
+`Edit` mode is a good choice when you'd like help making code changes in your files. Assistant will generate new code or edits to existing code based on your prompt.
+
+#### Additional prompts for `Edit` mode
+
+1. Start a new chat by clicking on the "+" icon at the top of the Positron Assistant sidebar chat.
+
+1. Switch to `Edit` mode by clicking on the mode selector at the bottom of the chat pane and selecting `Edit`.
+
+1. Ensure you have [python-demo.py](./python-demo.py) attached to the chat context. If it is not already attached:
+
+    1. Open the file in the editor
+
+    1. Drag the file tab to the sidebar chat; or in the Command Palette (<kbd>Cmd/Ctrl + Shift + P</kbd>), run the [command "Chat: Add File to Chat"](command:workbench.action.chat.attachFile).
+
+1. Then, try these additional prompts:
+
+    ```
+    Add another plot to this script that shows the breakdown of different threatened categories
+    ```
+
+    ```
+    Change the current file’s plotting code from plotnine to seaborn
+    ```
+
+    ```
+    Port this Python script to R
+    ```
+
+    Assistant will take some time to think and generate the suggested code. If you're satisfied with the changes, you can "Keep" the changes. To get a hand with resolving any code errors, switch over to `Agent` mode.
+
+</details>
+
 ## 📊 R demo
 
 ### Step 1: Run the script in the Console
@@ -275,3 +312,36 @@ You're done! 🎉
     ```
 
     - Positron Assistant may prompt you to "Run Code" to better understand the data and execute code in the Console. Click "Run Code" to execute the code in the Console.
+
+### Step 5: [OPTIONAL] Explore more with `Edit` mode
+
+<details>
+<summary>Additional prompts for `Edit` mode</summary>
+
+`Edit` mode is a good choice when you'd like help making code changes in your files. Assistant will generate new code or edits to existing code based on your prompt.
+
+#### Additional prompts for `Edit` mode
+
+1. Start a new chat by clicking on the "+" icon at the top of the Positron Assistant sidebar chat.
+
+1. Switch to `Edit` mode by clicking on the mode selector at the bottom of the chat pane and selecting `Edit`.
+
+1. Ensure you have [r-demo.R](./r-demo.R) attached to the chat context. If it is not already attached:
+
+    1. Open the file in the editor
+
+    1. Drag the file tab to the sidebar chat; or in the Command Palette (<kbd>Cmd/Ctrl + Shift + P</kbd>), run the [command "Chat: Add File to Chat"](command:workbench.action.chat.attachFile).
+
+1. Then, try these additional prompts:
+
+    ```
+    Add another plot to this script that shows the time series of team performance
+    ```
+
+    ```
+    Port this R script to Python
+    ```
+
+    Assistant will take some time to think and generate the suggested code. If you're satisfied with the changes, you can "Keep" the changes. To get a hand with resolving any code errors, switch over to `Agent` mode.
+
+</details>
