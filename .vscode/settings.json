@@ -9,4 +9,6 @@
   "positron.assistant.enable": true,
   "positron.r.defaultRepositories": "posit-ppm",
   "workbench.editor.pinnedTabsOnSeparateRow": true,
+  "databot.researchPreviewAcknowledgment": "Acknowledged",
+  "databot.preferredModel": "Claude 4 Sonnet",
 }
