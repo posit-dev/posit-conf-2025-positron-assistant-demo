@@ -6,15 +6,17 @@ if ! command -v brew &> /dev/null; then
     exit 1
 fi
 
-# Install uv
-echo "Installing uv..."
-brew install uv
+# Install pyenv
+echo "Installing pyenv..."
+brew install pyenv
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
+echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
+echo 'eval "$(pyenv init - zsh)"' >> ~/.zshrc
 
 # Install Python
 PYTHON_VERSION="3.13.7"
-echo "Installing Python version $PYTHON_VERSION using uv..."
-uv python install "$PYTHON_VERSION" --default
-uv python update-shell
+echo "Installing Python version $PYTHON_VERSION using pyenv..."
+pyenv install "$PYTHON_VERSION"
 
 # Install rig
 echo "Installing rig..."
